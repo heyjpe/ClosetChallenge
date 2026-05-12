@@ -581,7 +581,7 @@ export default function ClosetChallenge(){
       <div style={{background:B.offwhite,borderBottom:`1px solid ${B.border}`,padding:"16px 24px 16px"}}>
         {/* Logo */}
         <div style={{textAlign:"center",marginBottom:14}}>
-          <img src="/logo.png" alt="Closet Challenge" style={{height:38}}/>
+          <img src="/logo.png" alt="Closet Challenge" style={{height:70}}/>
         </div>
         {/* Metrics bar */}
         <div style={{display:"flex",gap:0,marginBottom:18,border:`1px solid ${B.border}`}}>
