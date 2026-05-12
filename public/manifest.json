@@ -1,0 +1,24 @@
+{
+  "name": "Closet Challenge",
+  "short_name": "Closet",
+  "description": "Seu armário. Suas regras.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F6F3EE",
+  "theme_color": "#4B1D22",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
