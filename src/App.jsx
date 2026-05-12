@@ -51,43 +51,43 @@ const IconHeart = ({size=18,color=B.burgundy}) => (
   </svg>
 );
 const IconStar = ({size=16,color=B.burgundy,filled=false}) => (
-  <svg width={size} height={size} viewBox="0 0 24 24" fill={filled?color:"none"} stroke={color} strokeWidth="1.2">
+  <svg width={size} ={size} viewBox="0 0 24 24" fill={filled?color:"none"} stroke={color} strokeWidth="1.2">
     <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
   </svg>
 );
 const IconCamera = ({size=18,color=B.charcoal}) => (
-  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.2">
+  <svg width={size} ={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.2">
     <path d="M23 19a2 2 0 01-2 2H3a2 2 0 01-2-2V8a2 2 0 012-2h4l2-3h6l2 3h4a2 2 0 012 2z"/>
     <circle cx="12" cy="13" r="4"/>
   </svg>
 );
 const IconTag = ({size=18,color=B.charcoal}) => (
-  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.2">
+  <svg width={size} ={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.2">
     <path d="M20.6 8.3L15.7 3.4A2 2 0 0014.3 3H7a2 2 0 00-2 2v7.3a2 2 0 00.6 1.4l8.7 8.7a2 2 0 002.8 0l4.5-4.5a2 2 0 000-2.8z"/>
     <circle cx="9" cy="9" r="1.5" fill={color}/>
   </svg>
 );
 const IconPhone = ({size=18,color=B.charcoal}) => (
-  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.2">
-    <rect x="5" y="2" width="14" height="20" rx="2"/>
+  <svg width={size} ={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.2">
+    <rect x="5" y="2" width="14" ="20" rx="2"/>
     <line x1="12" y1="18" x2="12" y2="18.01" strokeWidth="2" strokeLinecap="round"/>
   </svg>
 );
 const IconNoPhone = ({size=18,color=B.charcoal}) => (
-  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.2">
-    <rect x="5" y="2" width="14" height="20" rx="2"/>
+  <svg width={size} ={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.2">
+    <rect x="5" y="2" width="14" ="20" rx="2"/>
     <line x1="2" y1="2" x2="22" y2="22" stroke={B.burgundy} strokeWidth="1.5"/>
   </svg>
 );
 const IconMirror = ({size=18,color=B.charcoal}) => (
-  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.2">
+  <svg width={size} ={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.2">
     <ellipse cx="12" cy="9" rx="6" ry="8"/>
     <line x1="12" y1="17" x2="12" y2="22"/>
     <line x1="9" y1="22" x2="15" y2="22"/>
   </svg>
 );
 const IconRepeat = ({size=18,color=B.charcoal}) => (
-  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.2">
+  <svg width={size} ={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.2">
     <polyline points="17 1 21 5 17 9"/>
     <path d="M3 11V9a4 4 0 014-4h14"/>
     <polyline points="7 23 3 19 7 15"/>
@@ -95,20 +95,20 @@ const IconRepeat = ({size=18,color=B.charcoal}) => (
   </svg>
 );
 const IconDiamond = ({size=16,color=B.burgundy}) => (
-  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.2">
+  <svg width={size} ={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.2">
     <path d="M6 3h12l4 6-10 13L2 9z"/>
     <path d="M2 9h20M12 3l4 6-4 13L8 9z"/>
   </svg>
 );
 const IconTrophy = ({size=20,color=B.burgundy}) => (
-  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.2">
+  <svg width={size} ={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.2">
     <path d="M6 9H4a2 2 0 01-2-2V5h4M18 9h2a2 2 0 002-2V5h-4"/>
     <path d="M6 5v4a6 6 0 0012 0V5H6z"/>
     <path d="M12 15v4M8 21h8"/>
   </svg>
 );
 const IconChart = ({size=20,color=B.olive}) => (
-  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.2">
+  <svg width={size} ={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.2">
     <line x1="18" y1="20" x2="18" y2="10"/>
     <line x1="12" y1="20" x2="12" y2="4"/>
     <line x1="6" y1="20" x2="6" y2="14"/>
@@ -116,31 +116,31 @@ const IconChart = ({size=20,color=B.olive}) => (
   </svg>
 );
 const IconBag = ({size=20,color=B.charcoal}) => (
-  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.2">
+  <svg width={size} ={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.2">
     <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/>
     <line x1="3" y1="6" x2="21" y2="6"/>
     <path d="M16 10a4 4 0 01-8 0"/>
   </svg>
 );
 const IconFire = ({size=20,color=B.burgundy}) => (
-  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.2">
+  <svg width={size} ={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.2">
     <path d="M8.5 14.5A2.5 2.5 0 0011 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 01-7 7c-1.93 0-3.68-.79-4.95-2.05"/>
   </svg>
 );
 const IconHome = ({size=20,color=B.charcoal}) => (
-  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.2">
+  <svg width={size} ={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.2">
     <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/>
     <polyline points="9 22 9 12 15 12 15 22"/>
   </svg>
 );
 const IconHistory = ({size=20,color=B.charcoal}) => (
-  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.2">
+  <svg width={size} ={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.2">
     <polyline points="1 4 1 10 7 10"/>
     <path d="M3.5 15a9 9 0 102-5.5L1 10"/>
   </svg>
 );
 const IconWishlist = ({size=20,color=B.charcoal}) => (
-  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.2">
+  <svg width={size} ={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.2">
     <line x1="8" y1="6" x2="21" y2="6"/>
     <line x1="8" y1="12" x2="21" y2="12"/>
     <line x1="8" y1="18" x2="21" y2="18"/>
@@ -150,7 +150,7 @@ const IconWishlist = ({size=20,color=B.charcoal}) => (
   </svg>
 );
 const IconMoney = ({size=20,color=B.charcoal}) => (
-  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.2">
+  <svg width={size} ={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="1.2">
     <line x1="12" y1="1" x2="12" y2="23"/>
     <path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/>
   </svg>
@@ -274,7 +274,7 @@ function daysSince(s){return Math.max(0,Math.floor((new Date()-new Date(s+"T12:0
 function Label({children,color=B.textLight,mt=0}){
   return <div style={{fontFamily:MONT,fontSize:9,letterSpacing:3,color,textTransform:"uppercase",marginBottom:8,marginTop:mt}}>{children}</div>;
 }
-function Divider(){return <div style={{height:1,background:B.border,margin:"0"}}/>;}
+function Divider(){return <div style={{:1,background:B.border,margin:"0"}}/>;}
 function Btn({children,onClick,variant="primary",style={}}){
   const styles={
     primary:{background:B.burgundy,color:"#fff",border:"none"},
@@ -301,7 +301,7 @@ function QuestionFlow({questions,step,onAnswer,accentColor=B.burgundy}){
   return(
     <div>
       <div style={{display:"flex",gap:3,marginBottom:24}}>
-        {questions.map((_,i)=><div key={i} style={{flex:1,height:1,background:i<=step?accentColor:B.border}}/>)}
+        {questions.map((_,i)=><div key={i} style={{flex:1,:1,background:i<=step?accentColor:B.border}}/>)}
       </div>
       <Label color={B.textLight}>Pergunta {step+1} de {questions.length}</Label>
       <div style={{fontFamily:DIDOT,fontSize:20,color:B.text,lineHeight:1.5,marginBottom:28,fontStyle:"italic"}}>{questions[step].text}</div>
@@ -581,7 +581,7 @@ export default function ClosetChallenge(){
       <div style={{background:B.offwhite,borderBottom:`1px solid ${B.border}`,padding:"16px 24px 16px"}}>
         {/* Logo */}
         <div style={{textAlign:"center",marginBottom:14}}>
-          <img src="/logo.png" alt="Closet Challenge" style={{height:70}}/>
+          <img src="/logo.png" alt="Closet Challenge" style={{height:150}}/>
         </div>
         {/* Metrics bar */}
         <div style={{display:"flex",gap:0,marginBottom:18,border:`1px solid ${B.border}`}}>
